@@ -1,8 +1,16 @@
 import React from 'react'
+import Navbar from './navbar/Navbar'
+import Searchbar from './searchbar/Searchbar'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <>
+      <header className='main-header'>
+        <input type="checkbox" id="menu" />
+        <Navbar/>
+        <Searchbar />
+      </header>
+    </>
   )
 }
 
