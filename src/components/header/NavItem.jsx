@@ -5,7 +5,9 @@ const NavItem = () => {
   return (
     <>
       <li className='nav-bar__nav-item'>
-         <NavLink to={item.ruta} className="nav-bar__nav-link" />
+        <NavLink to={item.ruta} className="nav-bar__nav-link">
+          {item.nombre}
+        </NavLink>
       </li>
     </>
   )
