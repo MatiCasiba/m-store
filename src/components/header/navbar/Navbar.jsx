@@ -1,7 +1,7 @@
 import React from 'react'
-import NavItem from '../NavItem'
 import menuItems from '../../../constants/menuItems'
 import './Navbar.scss'
+import NavItem from '../NavItem'
 
 const Navbar = () => {
   return (
