@@ -12,12 +12,12 @@ const Searchbar = () => {
     <>
       <div className='search-bar'>
         <div className="search-bar__logo-container">
-          <img className='search-bar-logo-img' src="" alt="logo m" />
+          <img className='search-bar-logo-img' src="public/logo/me-logo.png" alt="logo me" />
         </div>
 
         <form action="#" className='search-bar__form-container'>
           <label htmlFor="busqueda" className='search-bar__form-label'>
-            <img className='search-bar__logo-search' src="" alt="logo del buscador" />
+            <img className='search-bar__logo-search' src="public/logo/logo-search.png" alt="logo del buscador" />
           </label>
           <input type="search" id="busqueda" className='search-bar__form-search' />
           <button type='submit' className='search-bar__form-submit'>Buscar</button>
@@ -25,7 +25,7 @@ const Searchbar = () => {
 
         <div className="search-bar__carrito-container">
           <Link to="/carrito" className='search-bar__cart-link'>
-            <img className='search-bar__cart-logo' src="" alt="logo carro" />
+            <img className='search-bar__cart-logo' src="public/logo/cart-logo.webp" alt="logo carro" />
             {contarProductosCarritoContext > 0 && (
               <span className='search-bar__cart-logo'>{contarProductosCarritoContext}</span>
             )}
