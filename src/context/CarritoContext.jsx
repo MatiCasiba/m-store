@@ -66,7 +66,15 @@ const CarritoProvider = ({ children }) => {
   }
 
   const calcularTotalCarritoContext = useMemo(() => {
-    return carrito.reduce((total, producto) => total + (producto, cantidad || 0), 0)
+    return carrito.reduce((total, producto) => {
+      const precio = Number(producto.precio) || 0
+      const cantidad = Number(producto.cantidad) || 0
+      return total + (precio * cantidad)
+    }, 0)
+  }, [carrito])
+
+  const contarProductosCarritoContext = useMemo(()=> {
+    return carrito.reduce((total, producto) => total + (producto.cantidad || 0), 0)
   }, [carrito])
 
   const data = {
@@ -80,6 +88,7 @@ const CarritoProvider = ({ children }) => {
   }
 
   return <CarritoContext.Provider value={data}>{children}</CarritoContext.Provider>
+
 }
 
 //! Exportaciones

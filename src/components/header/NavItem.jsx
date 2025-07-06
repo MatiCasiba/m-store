@@ -1,7 +1,6 @@
-import React from 'react'
 import { NavLink } from 'react-router'
 
-const NavItem = () => {
+const NavItem = ({item}) => {
   return (
     <>
       <li className='nav-bar__nav-item'>
