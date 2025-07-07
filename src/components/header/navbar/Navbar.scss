@@ -1,0 +1,91 @@
+.nav-bar{
+    background-color: #adc178;
+
+    &__nav-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        font-size: 1rem;
+        background-color: #adc178;
+
+        @media screen and (min-width: 992px) {
+            &{
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+    }
+
+    &__nav-item{
+        margin: 0.5rem;
+        text-align: center;
+
+        @media screen and (min-width: 992px) {
+            &{
+                margin: 0 1.5rem;
+            }
+        }
+    }
+
+    &__nav-link{
+        display: block;
+        background-color: #adc178;
+        padding: 1rem 2rem;
+        color: #000000;
+        text-decoration: none;
+        position: relative;
+
+        &:active{
+            color: #ffffff;
+        }
+
+        @media screen and (min-width: 992px) {
+            &{
+                font-size: 1rem;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            &{
+                background-color: #adc178;
+                color: #000000;
+                font-size: .9rem;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                height: 2px;
+                border-radius: 100%;
+                background-color: #000000;
+                transition: width 0.3s ease-in-out;
+            }
+
+            &:hover::after{
+                width: 100%;
+            }
+            
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        &{
+            display: block;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        &{
+            order: 2;
+            width: 100%;
+            background-color: #000000;
+        }
+        
+    }
+
+}
