@@ -1,5 +1,6 @@
 .nav-bar{
-    background-color: #adc178;
+    background-color: #b0b86c;
+    display: none;
 
     &__nav-list{
         display: flex;
@@ -7,7 +8,7 @@
         justify-content: center;
         list-style-type: none;
         font-size: 1rem;
-        background-color: #adc178;
+        background-color: #b0b86c;
 
         @media screen and (min-width: 992px) {
             &{
@@ -18,19 +19,12 @@
     }
 
     &__nav-item{
-        margin: 0.5rem;
         text-align: center;
-
-        @media screen and (min-width: 992px) {
-            &{
-                margin: 0 1.5rem;
-            }
-        }
     }
 
     &__nav-link{
         display: block;
-        background-color: #adc178;
+        background-color: #b0b86c;
         padding: 1rem 2rem;
         color: #000000;
         text-decoration: none;
@@ -50,7 +44,7 @@
 
         @media screen and (max-width: 1200px) {
             &{
-                background-color: #adc178;
+                background-color: #b0b86c;
                 color: #000000;
                 font-size: .9rem;
             }
@@ -70,12 +64,6 @@
                 width: 100%;
             }
             
-        }
-    }
-
-    @media screen and (max-width: 992px) {
-        &{
-            display: block;
         }
     }
 

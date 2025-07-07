@@ -1,4 +1,3 @@
-import React from 'react'
 import menuItems from '../../../constants/menuItems'
 import './Navbar.scss'
 import NavItem from '../NavItem'

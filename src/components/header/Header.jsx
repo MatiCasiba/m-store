@@ -1,4 +1,4 @@
-import React from 'react'
+import './Header.scss'
 import Navbar from './navbar/Navbar'
 import Searchbar from './searchbar/Searchbar'
 
@@ -7,8 +7,9 @@ const Header = () => {
     <>
       <header className='main-header'>
         <input type="checkbox" id="menu" />
-        <Navbar/>
+        <Navbar />
         <Searchbar />
+
       </header>
     </>
   )

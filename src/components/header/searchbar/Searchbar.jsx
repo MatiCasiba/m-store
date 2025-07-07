@@ -12,7 +12,7 @@ const Searchbar = () => {
     <>
       <div className='search-bar'>
         <div className="search-bar__logo-container">
-          <img className='search-bar-logo-img' src="/logo/me-logo.png" alt="logo me" />
+          <img className='search-bar__logo-img' src="/logo/me-logo.png" alt="logo me" />
         </div>
 
         <form action="#" className='search-bar__form-container'>
@@ -27,7 +27,7 @@ const Searchbar = () => {
           <Link to="/carrito" className='search-bar__cart-link'>
             <img className='search-bar__cart-logo' src="/logo/cart-logo.webp" alt="logo carro" />
             {contarProductosCarritoContext > 0 && (
-              <span className='search-bar__cart-logo'>{contarProductosCarritoContext}</span>
+              <span className='search-bar__cart-count'>{contarProductosCarritoContext}</span>
             )}
           </Link>
         </div>
