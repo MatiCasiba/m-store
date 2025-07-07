@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.scss'
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
 
           <div className="content-footer__empresa">
             <div className="content-footer__logo-eslogan">
-              <img src="public/logo/me-logo.png" alt="logo meledeco" />
+              <img className='content-footer__logo-footer' src="public/logo/me-logo.png" alt="logo meledeco" />
               <h2 className='content-footer__titulo-footer'>Meledeco</h2>
               <p className='content-footer__eslogan'>Aromas y Manualidades</p>
             </div> {/* content-footer__logo-eslogan */}
@@ -18,17 +19,25 @@ const Footer = () => {
                 <img className="content-footer__loguito"  src="/icons-footer/instagram-icon.png" alt="logo instagram" />
               </a> {/* instagram */}
               <a href="" target='_blank' title='whatsapp'>
-                <img src="/icons-footer/whatsapp-icon.png" alt="logo whatsapp" />
+                <img className="content-footer__loguito" src="/icons-footer/whatsapp-icon.png" alt="logo whatsapp" />
               </a> {/* whatsapp */}
+              <a href="mailto:..." target="_blank" title="correo">
+                <img className="content-footer__loguito"  src="/icons-footer/mail-icon.png" alt="logo email" />
+              </a> {/* email */}
             </div>
+          </div> {/* content-footer__empresa */}
             
             <div className="content-footer__pays">
               <div className="content-footer__tarjetas-info">
+                <img className="content-footer__icons" src="/icons-footer/delivery-icon.png" alt="imagen casa" />
+                <p className="content-footer__text-info">¿Te interesó algo? ¡Te llevamos el producto que has elegido!</p>
+              </div>
+
+              <div className="content-footer__tarjetas-info">
                 <img className="content-footer__icons" src="/icons-footer/icon-cards.webp" alt="imagen tarjeta de pago" />
-                <p className="content-footer__text-info">Pagá con transferencia o en efectivo</p>
+                <p className="content-footer__text-info">Pagá con transferencia o en efectivo, elije la opción que más te convenga.</p>
               </div> {/* content-footer__tarjetas-info */}
             </div> {/* content-footer__pays */}
-          </div>
 
           <div className="content-footer__content-cardLogos">
             <img src="/icons-footer/visa-icon.png" alt="imagen tarjeta visa" className="content-footer__logos-pays" />
