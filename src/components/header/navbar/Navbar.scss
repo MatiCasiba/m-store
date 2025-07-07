@@ -2,6 +2,14 @@
     background-color: #b0b86c;
     display: none;
 
+    // Mostrar siempre el navbar en pantallas grandes
+    @media screen and (min-width: 992px) {
+        display: block;
+        position: static;
+        width: 100%;
+        background-color: #b0b86c;
+    }
+
     &__nav-list{
         display: flex;
         flex-direction: column;
@@ -11,10 +19,10 @@
         background-color: #b0b86c;
 
         @media screen and (min-width: 992px) {
-            &{
-                flex-direction: row;
-                justify-content: center;
-            }
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
         }
     }
 
@@ -34,6 +42,23 @@
             color: #ffffff;
         }
 
+        // Línea animada debajo del link en todos los tamaños
+        &::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 2px;
+            border-radius: 100%;
+            background-color: #000000;
+            transition: width 0.3s ease-in-out;
+        }
+
+        &:hover::after{
+            width: 100%;
+        }
+
         @media screen and (min-width: 992px) {
             &{
                 font-size: 1rem;
@@ -48,22 +73,6 @@
                 color: #000000;
                 font-size: .9rem;
             }
-            &::after{
-                content: "";
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                width: 0;
-                height: 2px;
-                border-radius: 100%;
-                background-color: #000000;
-                transition: width 0.3s ease-in-out;
-            }
-
-            &:hover::after{
-                width: 100%;
-            }
-            
         }
     }
 

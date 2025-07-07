@@ -35,7 +35,7 @@
 
         @media screen and (min-width: 1200px) {
             &{
-                width: 50px;
+                width: 80px;
                 position: relative;
                 
             }
@@ -69,6 +69,7 @@
         max-height: 30px;
         object-fit: contain;
         flex-shrink: 0;
+        background-color: #b0b86c;
 
         @media screen and (min-width: 576px) {
             &{
@@ -83,11 +84,11 @@
     }
 
     &__form-search{
-        background-color: #b0b86c;
+        background-color: #f0ead2;
         margin-left: 10px;
         padding-left: 10px;
-        border-radius: 10px;
-        width: 100px;
+        border-radius: 5px;
+        width: 80%;
 
         @media screen and (min-width: 576px) {
             &{
@@ -109,24 +110,22 @@
 
         @media screen and (min-width: 1200px) {
             & {
-                width: 50%;
+                width: 30%;
             }
         }
     }
 
     &__form-submit{
         background-color: #b0b86c;
-        margin-left: 2px;
-        border-radius: 10px;
+        margin-left: 1px;
+        border-radius: 5px;
         padding: 5px;
-        transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+        transition: background-color 0.4s ease-in-out;
         cursor: pointer;
 
         @media screen and (min-width: 1200px) {
             &:hover {
                 background-color: #bccd25;
-                transform: scale(1.1); // hace que crezca un poco al pasar el mouse
-                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); // agrega un efecto de sombra sutil
             }
         }
     }
