@@ -2,7 +2,7 @@ const productos = [
     {
         id: 1,
         nombre: 'Perfume 250cc',
-        foto: 'image/perfume1.jpg',
+        foto: 'image/perfume-1.jpg',
         descripcion: 'Frambuesa y melón ',
         precio: '$ 5000',
         categoria: 'Perfumes',
@@ -10,7 +10,7 @@ const productos = [
     {
         id: 2,
         nombre: 'Perfume 250cc',
-        foto: 'image/perfume1.jpg',
+        foto: 'image/perfume-1.jpg',
         descripcion: 'Frambuesa y pimienta rosa',
         precio: '$ 5000',
         categoria: 'Perfumes',
@@ -18,7 +18,7 @@ const productos = [
     {
         id: 3,
         nombre: 'Perfume 250cc',
-        foto: 'image/perfume1.jpg',
+        foto: 'image/perfume-1.jpg',
         descripcion: 'Coco y lima',
         precio: '$ 5000',
         categoria: 'Perfumes',
@@ -26,7 +26,7 @@ const productos = [
     {
         id: 4,
         nombre: 'Perfume 250cc',
-        foto: 'image/perfume1.jpg',
+        foto: 'image/perfume-1.jpg',
         descripcion: 'Bosque de bambú',
         precio: '$ 5000',
         categoria: 'Perfumes',
@@ -34,7 +34,7 @@ const productos = [
     {
         id: 5,
         nombre: 'Perfume 250cc',
-        foto: 'image/perfume1.jpg',
+        foto: 'image/perfume-1.jpg',
         descripcion: 'Tilo y lavanda',
         precio: '$ 5000',
         categoria: 'Perfumes',
@@ -42,7 +42,7 @@ const productos = [
     {
         id: 6,
         nombre: 'Perfume 250cc',
-        foto: 'image/perfume1.jpg',
+        foto: 'image/perfume-1.jpg',
         descripcion: 'Lemongrass',
         precio: '$ 5000',
         categoria: 'Perfumes',
@@ -50,7 +50,7 @@ const productos = [
     {
         id: 7,
         nombre: 'Perfume 250cc',
-        foto: 'image/perfume1.jpg',
+        foto: 'image/perfume-1.jpg',
         descripcion: 'Flores blancas',
         precio: '$ 5000',
         categoria: 'Perfumes',
@@ -58,7 +58,7 @@ const productos = [
     {
         id: 8,
         nombre: 'Perfume 250cc',
-        foto: 'image/perfume1.jpg',
+        foto: 'image/perfume-1.jpg',
         descripcion: 'Flores Blancas y pera',
         precio: '$ 5000',
         categoria: 'Perfumes',
@@ -66,7 +66,7 @@ const productos = [
     {
         id: 9,
         nombre: 'Perfume 250cc',
-        foto: 'image/perfume1.jpg',
+        foto: 'image/perfume-1.jpg',
         descripcion: 'Frutos rojos',
         precio: '$ 5000',
         categoria: 'Perfumes',
@@ -74,7 +74,7 @@ const productos = [
     {
         id: 10,
         nombre: 'Perfume 250cc',
-        foto: 'image/perfume1.jpg',
+        foto: 'image/perfume-1.jpg',
         descripcion: 'Jazmín',
         precio: '$ 5000',
         categoria: 'Perfumes',

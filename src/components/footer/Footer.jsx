@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="content-footer__logo-eslogan">
               <img className='content-footer__logo-footer' src="/logo/me-logo.png" alt="logo meledeco" />
               <h2 className='content-footer__titulo-footer'>Meledeco</h2>
-              <p className='content-footer__eslogan'>Aromas y Manualidades</p>
+              <p className='content-footer__eslogan'>Ama Sonríe y disfruta</p>
             </div> {/* content-footer__logo-eslogan */}
 
             <div className="content-footer__logo-redes">
