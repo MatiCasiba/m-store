@@ -51,16 +51,26 @@ main{
     &__image {
         object-fit: cover;
         width: 100%;
-        height: 100%;
+        height: auto;
+        display: block;
+        @media screen and (min-width: 1200px) {
+            height: 100%;
+        }
     }
 
     &__image-container {
-        margin: auto;
-        width: 150px;
-        height: 200px;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
         overflow: hidden;
         position: relative;
-        background: #fff;
+        background: #b0b86c;
+        @media screen and (min-width: 1200px) {
+            width: 100%;
+            height: 220px;
+            max-width: none;
+        }
     }
 
     &__content{
@@ -69,10 +79,29 @@ main{
         justify-content: space-between;
         flex-grow: 1;
         padding: 2%;
-        background: rgba(255,255,255,0.97);
+        background: #b0b86c;
         border-radius: 5px;
         box-shadow: 0 2px 8px 0 rgba(0,0,0,0.15);
-        transition: opacity 0.4s, transform 0.4s;
+        width: 100%;
+        height: auto;
+        position: static;
+        opacity: 1;
+        pointer-events: auto;
+        transform: none;
+        transition: none;
+        margin-top: 10px;
+        @media screen and (min-width: 1200px) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            pointer-events: none;
+            transform: translateY(20px);
+            transition: opacity 0.4s, transform 0.4s;
+            margin-top: 0;
+        }
     }
 
     &__heading{
@@ -80,9 +109,12 @@ main{
     }
 
     &__description{
-        width: 250px;
+        width: 100%;
         font-size: 0.9rem;
         align-items: center;
+        @media screen and (min-width: 1200px) {
+            width: 250px;
+        }
     }
 
     &__precios{
@@ -106,29 +138,7 @@ main{
             justify-content: space-between;
             border-radius: 5px;
         }
-
-        &__image-container {
-            width: 100%;
-            height: 220px;
-            overflow: hidden;
-            position: relative;
-        }
-        &__image {
-            width: 100%;
-            height: 100%;
-            display: block;
-        }
-        &__content {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            opacity: 0;
-            pointer-events: none;
-            transform: translateY(20px);
-            z-index: 2;
-        }
+        
         &:hover .card__content,
         &:focus-within .card__content {
             opacity: 1;

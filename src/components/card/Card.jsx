@@ -11,9 +11,9 @@ const Card = ({producto}) => {
             <p className='card__precios'>{producto.precio}</p>
             <div className="card__description">
               <p className='card__text'>{producto.descripcion}</p>
-            </div>
-          </div>
-        </div>
+            </div> {/* __description */}
+          </div> {/* __content */}
+        </div> {/* __image-container */}
       </article>
     </div>
   )
