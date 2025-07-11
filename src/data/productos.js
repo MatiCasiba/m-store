@@ -223,6 +223,79 @@ const productos = [
         precio: '$ 4000',
         categoria: 'Velas',
     },
+    {
+        id: 29,
+        nombre: 'Almohada',
+        foto: 'image/almohadas-1.jpg',
+        descripcion: 'decorativa',
+        precio: '$ 1000',
+        categoria: 'Hogar',
+    },
+    {
+        id: 30,
+        nombre: 'Llavero',
+        foto: 'image/accesorios-hogar-2.jpg',
+        descripcion: 'llavero de madera | 3 ganchos',
+        precio: '$ 2000',
+        categoria: 'Hogar',
+    },
+    {
+        id: 31,
+        nombre: 'Espejo',
+        foto: 'image/accesorios-hogar-3.jpg',
+        descripcion: 'espejo decorativo',
+        precio: '$ 1500',
+        categoria: 'Hogar',
+    },
+    {
+        id: 32,
+        nombre: 'Centro de mesa',
+        foto: 'image/adorno.jpg',
+        descripcion: 'centro de mesa navideño',
+        precio: '$ 2500',
+        categoria: 'Decoración',
+    },
+    {
+        id: 33,
+        nombre: 'Centro de mesa',
+        foto: 'image/adornos-2.jpg',
+        descripcion: 'centro de mesa decorativo',
+        precio: '$ 2500',
+        categoria: 'Decoración',
+    },
+    {
+        id: 34,
+        nombre: 'Reloj',
+        foto: 'image/reloj-3.jpg',
+        descripcion: 'reloj de pared decorativo | marrón, gris y blanco',
+        precio: '$ 3000',
+        categoria: 'Hogar',
+    },
+    {
+        id: 35,
+        nombre: 'Reloj',
+        foto: 'image/reloj-2.jpg',
+        descripcion: 'reloj de pared decorativo | celeste, negro y blanco',
+        precio: '$ 3000',
+        categoria: 'Hogar',
+    },
+    {
+        id: 36,
+        nombre: 'Reloj',
+        foto: 'image/reloj-1.jpg',
+        descripcion: 'reloj de pared decorativo | rosa, beige y blanco',
+        precio: '$ 3000',
+        categoria: 'Hogar',
+    },
+    {
+        id: 37,
+        nombre: 'Canasto',
+        foto: 'image/adorno-3.jpg',
+        descripcion: 'canasto decorativo hecho con madera ',
+        precio: '$ 3500',
+        categoria: 'Hogar'
+    }
+
 ]
 
 export default productos
