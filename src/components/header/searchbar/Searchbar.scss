@@ -9,7 +9,6 @@
     margin: 0 auto;
 
     &__logo-container{
-        width: 5.75rem;
         height: 3.5rem;
 
         @media screen and (min-width: 992px) {
@@ -41,6 +40,11 @@
             }
             
         }
+    }
+
+    &__title{
+        font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+        color: #24291d;
     }
 
     &__form-container{

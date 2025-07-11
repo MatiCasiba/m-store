@@ -28,7 +28,6 @@ const Inicio = () => {
           <section className="section-cards">
             <header className="section-cards__header">
               <h1>Nuestros productos:</h1>
-              <p>Perfumes - Jabones - Adornos - Relojes - Velas</p>
             </header>
           </section> 
 
