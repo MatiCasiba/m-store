@@ -2,9 +2,11 @@ import './Categoria.scss'
 import React, { useState } from 'react'
 import productos from '../../data/productos'
 import Card from '../../components/card/Card'
+import useTitulo from '../../hooks/useTitulo'
 
 const Categoria = () => {
   const [selected, setSelected] = useState('')
+  useTitulo('Categorías')
 
   const handleSelect = (cat) => setSelected(cat)
 

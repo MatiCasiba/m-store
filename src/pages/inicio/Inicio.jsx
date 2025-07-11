@@ -4,11 +4,13 @@ import ProductosContext from '../../context/ProductosContext'
 import Card from '../../components/card/Card'
 import Slider from '../../components/header/slider/Slider'
 import Spinner from '../../components/spinner/Spinner'
+import useTitulo from '../../hooks/useTitulo'
 
 
 const Inicio = () => {
   
   const {productos} = useContext(ProductosContext)
+  useTitulo('Inicio')
 
   const [cargando, setCargando] = useState(true)
 
