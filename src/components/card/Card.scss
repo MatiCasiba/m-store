@@ -68,7 +68,7 @@ main{
         background: #b0b86c;
         @media screen and (min-width: 1200px) {
             width: 100%;
-            height: 220px;
+            height: 250px;
             max-width: none;
         }
     }
@@ -91,6 +91,7 @@ main{
         transition: none;
         margin-top: 10px;
         @media screen and (min-width: 1200px) {
+            font-size: 2rem;
             position: absolute;
             top: 0;
             left: 0;
@@ -106,27 +107,49 @@ main{
 
     &__heading{
         font-size: 1.2rem;
+        text-align: center;
+        font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+        @media screen and (min-width: 1200px) {
+            font-size: 3rem;
+            
+        }
     }
 
     &__description{
         width: 100%;
         font-size: 0.9rem;
-        align-items: center;
+        text-align: center;
         @media screen and (min-width: 1200px) {
             width: 250px;
+            margin: 0 auto;
         }
     }
 
     &__precios{
-        margin-top: 8px;
-        letter-spacing: 5px;
+        font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+        margin-top: 18px;
+        letter-spacing: 2px;
         text-align: center;
+        font-weight: 900;
+        background-color: #000000;
+        color: #b0b86c;
+        border-radius: 5px;
+
+        @media screen and (min-width: 1200px) {
+            margin-top: 5px;
+        }
     }
 
     &__text{
+        font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
         font-size: 1.1rem;
         font-weight: 400;
         color: #000000;
+        margin-top: 5px;
+        @media screen and (min-width: 1200px) {
+            font-size: 2rem;
+            
+        }
     }
 
     // --- EFECTO REVEAL EN ESCRITORIO ---
