@@ -294,7 +294,88 @@ const productos = [
         descripcion: 'canasto decorativo hecho con madera ',
         precio: '$ 3500',
         categoria: 'Hogar'
-    }
+    },
+    {
+        id: 38,
+        nombre: 'Difusor de aromas',
+        foto: 'image/difusor.jpeg',
+        descripcion: 'Frambuesa y melon',
+        precio: '$ 5000',
+        categoria: 'Perfumes'
+    },
+    {
+        id: 39,
+        nombre: 'Difusor de aromas',
+        foto: 'image/difusor.jpeg',
+        descripcion: 'Frambuesa y pimineta rosa',
+        precio: '$ 5000',
+        categoria: 'Perfumes'
+    },
+    {
+        id: 40,
+        nombre: 'Difusor de aromas',
+        foto: 'image/difusor.jpeg',
+        descripcion: 'Coco y lima',
+        precio: '$ 5000',
+        categoria: 'Perfumes'
+    },
+    {
+        id: 41,
+        nombre: 'Difusor de aromas',
+        foto: 'image/difusor.jpeg',
+        descripcion: 'Bosque de bambú',
+        precio: '$ 5000',
+        categoria: 'Perfumes'
+    },
+    {
+        id: 42,
+        nombre: 'Difusor de aromas',
+        foto: 'image/difusor.jpeg',
+        descripcion: 'Tilo y lavanda',
+        precio: '$ 5000',
+        categoria: 'Perfumes'
+    },
+    {
+        id: 43,
+        nombre: 'Difusor de aromas',
+        foto: 'image/difusor.jpeg',
+        descripcion: 'Lemongrass',
+        precio: '$ 5000',
+        categoria: 'Perfumes'
+    },
+    {
+        id: 44,
+        nombre: 'Difusor de aromas',
+        foto: 'image/difusor.jpeg',
+        descripcion: 'Flores blancas',
+        precio: '$ 5000',
+        categoria: 'Perfumes'
+    },
+    {
+        id: 45,
+        nombre: 'Difusor de aromas',
+        foto: 'image/difusor.jpeg',
+        descripcion: 'Flores Blancas y pera',
+        precio: '$ 5000',
+        categoria: 'Perfumes'
+    },
+    {
+        id: 46,
+        nombre: 'Difusor de aromas',
+        foto: 'image/difusor.jpeg',
+        descripcion: 'Frutos rojos',
+        precio: '$ 5000',
+        categoria: 'Perfumes'
+    },
+    {
+        id: 47,
+        nombre: 'Difusor de aromas',
+        foto: 'image/difusor.jpeg',
+        descripcion: 'Jazmín',
+        precio: '$ 5000',
+        categoria: 'Perfumes'
+    },
+
 
 ]
 
