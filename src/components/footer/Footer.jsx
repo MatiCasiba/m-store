@@ -40,8 +40,7 @@ const Footer = () => {
             </div> {/* content-footer__pays */}
 
           <div className="content-footer__content-cardLogos">
-            <img src="/icons-footer/visa-icon.png" alt="imagen tarjeta visa" className="content-footer__logos-pays" />
-            <img src="/icons-footer/brubank.png" alt="imagen brubank" className="content-footer__logo-pays" />
+            <img src="/icons-footer/visa-icon.png" alt="imagen tarjeta visa" className="content-footer__logos-pays" />            
             <img src="/icons-footer/mastercard.png" alt="imagen tarjeta mastercard" className="content-footer__logos-pays" />
             <img src="/icons-footer/mercado-pago.png" alt="imagen mercado pago" className="content-footer__logos-pays" />
           </div> {/* content-footer__content-cardLogos */}
