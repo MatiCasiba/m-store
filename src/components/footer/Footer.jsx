@@ -46,6 +46,10 @@ const Footer = () => {
             <img src="/icons-footer/mercado-pago.png" alt="imagen mercado pago" className="content-footer__logos-pays" />
           </div> {/* content-footer__content-cardLogos */}
 
+          <div className="content-footer__copyright">
+            <small>&copy; {new Date().getFullYear()} Meledeco. Todos los derechos reservados.</small>
+          </div>
+
         </div>
       </footer>
     </>
