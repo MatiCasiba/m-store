@@ -375,6 +375,14 @@ const productos = [
         precio: '$ 5000',
         categoria: 'Perfumes'
     },
+    {
+        id: 48,
+        nombre: 'Floreros',
+        foto: 'image/floreros.jpg',
+        descripcion: 'florero decorativo',
+        precio: '$ 2000',
+        categoria: 'Decoración'
+    }
 
 
 ]
