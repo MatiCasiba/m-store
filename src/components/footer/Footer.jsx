@@ -15,15 +15,15 @@ const Footer = () => {
             </div> {/* content-footer__logo-eslogan */}
 
             <div className="content-footer__logo-redes">
-              <a href="..." target="_blank" title="Marta Ibañez">
+              <a href="https://www.instagram.com/ibanezmartaelena?utm_source=qr&igsh=MWI4dG5jcmowOGRtMQ==" target="_blank" title="Marta Ibañez">
                 <img className="content-footer__loguito"  src="/icons-footer/instagram-icon.png" alt="logo instagram" />
               </a> {/* instagram */}
-              <a href="" target='_blank' title='whatsapp'>
+              <a href="https://wa.me/qr/ZBUJU4XK2TG3B1" target='_blank' title='whatsapp'>
                 <img className="content-footer__loguito" src="/icons-footer/whatsapp-icon.png" alt="logo whatsapp" />
               </a> {/* whatsapp */}
-              <a href="mailto:..." target="_blank" title="correo">
+              {/* <a href="mailto:..." target="_blank" title="correo">
                 <img className="content-footer__loguito"  src="/icons-footer/mail-icon.png" alt="logo email" />
-              </a> {/* email */}
+              </a> */}
             </div>
           </div> {/* content-footer__empresa */}
             
