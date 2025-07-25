@@ -12,7 +12,7 @@ const Card = ({ producto }) => {
               <p className='card__text'>{producto.descripcion}</p>
             </div> {/* __description */}
             {/* <p className='card__precios'>{producto.precio}</p> */}
-            <button
+            {/* <button
               className='card__button'
               onClick={() => {
                 const link = `${window.location.origin}/producto/${producto.id}`;
@@ -21,7 +21,7 @@ const Card = ({ producto }) => {
               }}
             >
               Compartir
-            </button>
+            </button> */}
           </div> {/* __content */}
         </div> {/* __image-container */}
       </article>
