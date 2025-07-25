@@ -1,6 +1,6 @@
 import './Card.scss';
 
-const Card = ({producto}) => {
+const Card = ({ producto }) => {
   return (
     <div className="card">
       <article className='card__article'>
@@ -12,6 +12,16 @@ const Card = ({producto}) => {
               <p className='card__text'>{producto.descripcion}</p>
             </div> {/* __description */}
             {/* <p className='card__precios'>{producto.precio}</p> */}
+            <button
+              className='card__button'
+              onClick={() => {
+                const link = `${window.location.origin}/producto/${producto.id}`;
+                navigator.clipboard.writeText(link);
+                alert('¡Copiado!');
+              }}
+            >
+              Compartir
+            </button>
           </div> {/* __content */}
         </div> {/* __image-container */}
       </article>
