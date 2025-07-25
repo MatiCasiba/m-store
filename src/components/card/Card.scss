@@ -109,9 +109,13 @@ main{
         font-size: 1.2rem;
         text-align: center;
         font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+        
+        @media screen and (min-width: 576px) {
+            font-size: 1.6rem;
+        }
+
         @media screen and (min-width: 1200px) {
             font-size: 3rem;
-            
         }
     }
 
@@ -119,6 +123,7 @@ main{
         width: 100%;
         font-size: 0.9rem;
         text-align: center;
+
         @media screen and (min-width: 1200px) {
             width: 250px;
             margin: 0 auto;
@@ -142,10 +147,15 @@ main{
 
     &__text{
         font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-weight: 400;
         color: #000000;
         margin-top: 5px;
+
+        @media screen and (min-width: 576px) {
+            font-size: 1.3rem;
+        }
+
         @media screen and (min-width: 1200px) {
             font-size: 2rem;
             

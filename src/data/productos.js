@@ -227,7 +227,7 @@ const productos = [
         id: 29,
         nombre: 'Almohada',
         foto: 'image/almohadas-1.jpg',
-        descripcion: 'decorativa',
+        descripcion: 'decorativa - cama | sillones',
         precio: '$ 1000',
         categoria: 'Hogar',
     },
