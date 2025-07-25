@@ -11,7 +11,7 @@ const Card = ({producto}) => {
             <div className="card__description">
               <p className='card__text'>{producto.descripcion}</p>
             </div> {/* __description */}
-            <p className='card__precios'>{producto.precio}</p>
+            {/* <p className='card__precios'>{producto.precio}</p> */}
           </div> {/* __content */}
         </div> {/* __image-container */}
       </article>
