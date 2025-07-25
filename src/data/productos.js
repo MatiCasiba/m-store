@@ -382,8 +382,35 @@ const productos = [
         descripcion: 'florero decorativo',
         precio: '$ 2000',
         categoria: 'Decoración'
+    },
+    {
+        id: 49,
+        nombre: 'Bandeja',
+        foto: 'image/bandeja.jpg',
+        descripcion: 'Bandeja decorativa para llevar tu desayuno o merienda ',
+        categoria: 'Decoración',
+    },
+    {
+        id: 50,
+        nombre: 'Calendario',
+        foto: 'image/calendario.jpg',
+        descripcion: 'Calendario con forma de casa de madera',
+        categoria: 'Decoración',
+    },
+    {
+        id: 51,
+        nombre: 'Maseta',
+        foto: 'image/masetero.jpg',
+        descripcion: 'Masetero decorativo para lucir tus plantas',
+        categoria: 'Decoración'
+    },
+    {
+        id: 52,
+        nombre: 'Posatortas',
+        foto: 'image/posatortas.jpg',
+        descripcion: 'Posatortas con un estilo vintage',
+        categoria: 'Decoración'
     }
-
 
 ]
 
