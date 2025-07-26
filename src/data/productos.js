@@ -289,9 +289,9 @@ const productos = [
     },
     {
         id: 37,
-        nombre: 'Canasto',
+        nombre: 'Huevera',
         foto: 'image/adorno-3.jpg',
-        descripcion: 'canasto decorativo hecho con madera ',
+        descripcion: 'Huevera decorativa hecho con madera ',
         precio: '$ 3500',
         categoria: 'Hogar'
     },
@@ -410,8 +410,42 @@ const productos = [
         foto: 'image/posatortas.jpg',
         descripcion: 'Posatortas con un estilo vintage',
         categoria: 'Decoración'
+    },
+    {
+        id: 53,
+        nombre: 'Almohada',
+        foto:'image/almohada.jpg',
+        descripcion: 'Almohada decorativa - cama | sillones',
+        categoria: 'Hogar'
+    },
+    {
+        id: 54,
+        nombre: 'Espejo',
+        foto: 'image/espejo.jpg',
+        descripcion: 'Espejo decorativo color blanco',
+        categoria: 'Hogar'
+    },
+    {
+        id: 55,
+        nombre: 'Buda Nirvana',
+        foto: 'image/buda.jpg',
+        descripcion: 'Estatua chica de buda con una vela',
+        categoria: 'Decoración'
+    },
+    {
+        id: 56,
+        nombre: 'Mesita Nórdica',
+        foto: 'image/mesita.jpg',
+        descripcion: 'Mesita hecho con madera y decorada',
+        categoria: 'Hogar'
+    },
+    {
+        id: 57,
+        nombre: 'Contenedor industrial',
+        foto: 'image/frasco.jpg',
+        descripcion: 'Tapa y etiqueta oscuros, detalles plateados',
+        categoria: 'Decoración'
     }
-
 ]
 
 export default productos
